@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+	html, body, #root {
+		height: 100%;
+	}
+
+	body {
+		background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+		font-family: 'Inter', system-ui, sans-serif;
+		color: #333;
+	}
+}
